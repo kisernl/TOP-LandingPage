@@ -28,17 +28,12 @@ body {
     justify-content: center;
     align-self: center;
   }
-
-  .logoimg {
-    display: flex;
-    max-width: 400px;
-    height: auto;
-  }
   
   
   .links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
     padding: 5px;
     gap: 10px;
@@ -64,6 +59,8 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -103,6 +100,16 @@ body {
     border-radius: 8px;
   }
 
+
+  .logoimg {
+    display: flex;
+    width: 400px;
+    height: 100%;
+    flex: 0 1 auto;
+    padding: 15px 32px;
+    margin: 25px;
+  }
+/*
   .HeroImage {
     display: flex;
     flex-direction: column;
@@ -111,34 +118,55 @@ body {
     height: auto;
     padding: 20px;
   }
-
+*/
   .body2 {
     font-family: 'Montserrat', sans-serif;
     color: #1F2937;
     background-color: #F9FAF8; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex: 1;
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;
-    width: 100%;
   }
 
   .BodyTitle {
     font-weight: 700;
+    margin: 20px;
   }
 
   .boxes {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    flex-shrink: 1;
+    flex-wrap: wrap;
+  }
+
+  .group1,
+  .group2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image,
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 200px;
+    padding: 5px;
+    margin-bottom: 20px;
+    flex: 1 1 auto;
+  }
+
+  .image {
+    border: 2px solid #1F2937;
+    border-radius: 6px;
+    margin: 10px;
   }
 
  
