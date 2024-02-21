@@ -90,7 +90,8 @@ body {
     padding: 15px 32px;
   }
 
-  button {
+  .HeroApply {
+    font-size: 20px;
     color: #F9FAF8;
     background-color: #2b5fb3;
     padding: 10px;
@@ -174,7 +175,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ECF0F9;
-    padding: 50px;
+    padding: 25px;
     padding-bottom: 75px;
   }
 
@@ -203,7 +204,82 @@ body {
     justify-content: flex-end;
     align-items: flex-start;
     margin-top: 0;
-    margin-right: 160px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 50px;;
+  }
+
+  .body4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F9FAF8;
+    background-color: #2b5fb3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+    margin: 125px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+  }
+
+  .action {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px
+  }
+
+  .bold-call {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+  }
+
+  .lite-call {
+    font-size: 20px;
+    font-weight: 200;
+    padding: 20px;
+    padding-top: 5px;
+  }
+  .bottom-button {
+    display: flex;
+    flex-shrink: 0;
+    padding: 20px;
+  }
+
+  .bottom-apply {
+    font-size: 20px;
+    color: #F9FAF8;
+    background-color: #2b5fb3;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+  }
+
+  .footer {
+    font-family: 'Montserrat', sans-serif;
+    background: #1F2937;
+    font-size: 15px;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .site,
+  .credit {
+    padding: 25px;
+  }
+
+  .site {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .credit {
+    font-size: 10px;
+    padding-top: 5px;
   }
  
