@@ -5,6 +5,8 @@ body {
 .header  {
     font-family: 'Montserrat', sans-serif;
     background: #1F2937;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     justify-content: space-between;
 
